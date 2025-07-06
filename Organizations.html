@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+/* Website Style Start*/
+body {font-family: 'Roboto Slab';font-size: 20px; margin: 0; }
+/* Sticky navbar */
+.navbar { overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;}
+
+/* Navigation bar links */
+.navbar a { float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;}
+
+/* Right-aligned link */
+.navbar a.right { float: right; }
+
+/* Change color on hover */
+.navbar a:hover { background-color: #ddd; color: black; }
+
+/* Active link */
+.navbar a.active { background-color: #666; color: white; }
+
+/* Footer */
+.footer { padding: 20px;
+  text-align: center;
+  background: #ddd; }
+
+/* Responsive layout */
+@media screen and (max-width: 700px) {.row { flex-direction: column; } }
+
+/* Responsive layout */
+@media screen and (max-width: 400px) { .navbar a { float: none; width: 100%; } }
+/* Website Style end*/
+table { font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;}
+
+td, th {border: 1px solid #dddddd;
+  text-align: left;
+  padding: 10px;}
+
+tr:nth-child(even) {background-color: #dddddd;}
+</style>
+</head>
+<body link="#FFFFFF" alink="#000000" vlink="#450101">
+
+   <div class="navbar">
+     <a href="index.html"class="active" >About Me</a>
+    <a href="Work Experience.html">Work Experience</a>
+    <a href="Skills.html">Skills</a>
+    <a href="Education.html">Education</a>
+    <a href="Volunteering & Leadership.html">Volunteering & Leadership</a>
+    <a href="Organizations.html">Organizations</a>
+    <a href="Languages.html">Languages</a>
+    <a href="Q and A.html">Q&A</a>
+  </div>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>SL No.</th>
+      <th>Organizations</th>
+      <th>Designation</th>
+      <th>Additional information</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">01</th>
+      <td>Transparency International Bangladesh (TIB)</td>
+      <td>Field Surveyor</td>
+      <td>Confidential</td>
+    </tr>
+    <tr>
+      <th scope="row">02</th>
+      <td>Bangladesh Anwsar</td>
+      <td>Anwsar</td>
+      <td>Confidential</td>
+    </tr>
+
+    
+  </tbody>
+</table>
+</body>
+</html>
